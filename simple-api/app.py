@@ -10,7 +10,7 @@ port = int(os.getenv("PORT", "5000"))
 @app.route('/')
 def hello():
     msg = {
-        "message": "Hello Qmonus Value Stream."
+        "message": "Hello!  Social ICT Pioneer Company from Qmonus Value Stream!"
     }
     return json.dumps(msg)
 
